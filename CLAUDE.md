@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Matan Malka
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Matan Malka, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,65 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Matan Malka
+- **Location:** Tel Aviv, Israel (open to Tel Aviv, Ramat Gan, Herzliya, Petah Tikva, and central Israel; hybrid/remote preferred)
+- **Languages:** Hebrew (native), English (fluent), Arabic (conversational), French (conversational)
+- **Status:** Available now
+- **LinkedIn headline:** "Full-Stack Developer | Python · FastAPI · React · PostgreSQL"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Full-Stack Development** (2024–2025) — John Bryce, Tel Aviv
+  - 990-hour intensive program
+  - Topics: Python (Django, FastAPI, Flask), React, Node.js, GenAI integrations (OpenAI API, LLM pipelines), Docker, AWS EC2, Clean Code, SOLID principles
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Full-Stack Developer** (2025 – 2026) — **PH.Digital** (Tel Aviv)
+  - Designed and maintained end-to-end web applications with React and Python/FastAPI, owning the full stack from database schema to API layer
+  - Built production business platform with PostgreSQL: complex business logic, JWT authentication, async background job scheduling
+  - Integrated third-party REST APIs; built automated workflows for document generation, client communication, and financial reporting
+  - Delivered features in Agile sprints; collaborated with frontend and product teams
+
+- **Sales Team Leader** (2019 – 2025) — **Pcom Solutions** (Tel Aviv)
+  - Led team of 3–4 sales representatives; managed pipeline, KPIs, enterprise client relationships
+  - Grew team revenue 30% YoY
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Python (FastAPI, Flask), React, TypeScript, JavaScript, PostgreSQL, RESTful APIs
+- **Secondary:** Node.js (Express), MongoDB, MySQL, SQLAlchemy, Docker, AWS EC2
+- **Domain:** Backend architecture, full-stack web development, AI/LLM integration, workflow automation
+- **Software:** Git, GitHub, Postman, OpenAI API, Anthropic API, Claude Code
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- **Full-Stack Development** — John Bryce — 990h — completed 2025
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+- None
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Ownership-driven** — takes end-to-end responsibility for features from design through production
+- **Quality-focused** — prioritizes clean, maintainable, scalable code; low tolerance for poor engineering standards
+- **Collaborative builder** — works best in high-standards engineering teams with clear ownership
+- **Strengths:** Backend architecture, API design, problem-solving, AI/automation tooling, cross-functional collaboration
+- **Growth areas:** Moving toward tech lead / system architect responsibilities; larger-scale distributed systems
+- **Thrives in:** Product companies with strong engineering culture, technical ownership, and interesting problems
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Designing clean, scalable backend architectures and building APIs end-to-end
+- Working with AI tools and automation (Claude Code, LLM integrations) to build intelligent features and increase developer productivity
+- Taking full ownership of complex engineering problems from design through production
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Tech startups & scale-ups: SaaS, B2B platforms, developer tools, product companies
+- AI/automation: companies integrating LLMs, workflow automation, or AI-first products
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Toxic engineering culture or systematically low engineering standards
+- No opportunities to learn, grow, or build — pure maintenance roles
+- Excessive overtime as the norm; micromanagement
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

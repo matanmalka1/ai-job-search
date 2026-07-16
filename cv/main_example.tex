@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Master CV - Matan Malka
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -11,8 +10,7 @@
 \moderncvcolor{blue}
 
 % Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
+% blue (color1). Default banking on lualatex+MiKTeX leaves these black.
 \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
@@ -24,18 +22,19 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Matan Malka - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Matan}{Malka}
+\address{Tel Aviv, Israel}{}{}
+\phone[mobile]{+972-50-668-8386}
+\email{matan1391@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/matanmalka1}{LinkedIn}, \href{https://github.com/matanmalka1}{GitHub}}
 
 \begin{document}
 
@@ -46,7 +45,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Full-Stack Developer with production experience building Python/FastAPI backends, React frontends, and PostgreSQL data layers. Designed and owned end-to-end features on a live business platform: API architecture, JWT authentication, async job scheduling, and third-party integrations. Background in client-facing leadership adds business context and product sense. Fluent in Hebrew and English; experienced with AI tooling (Claude Code, OpenAI/Anthropic API) to accelerate development velocity and code quality.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +55,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Backend Development}: Python (FastAPI, Flask, Django), Node.js (Express), RESTful API design, JWT authentication, async background job scheduling, SQLAlchemy
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{Frontend Development}: React, TypeScript, JavaScript (ES6+), component architecture, state management
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Databases}: PostgreSQL, MySQL, MongoDB -- schema design, complex queries, business logic
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{AI \& Automation}: Prompt Engineering, OpenAI API, Anthropic API, LLM pipeline integration, Claude Code for AI-assisted development
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{DevOps \& Tools}: Docker, AWS EC2, Git, GitHub, Postman, Agile/Scrum
 
 \end{itemize}
 
@@ -76,32 +75,21 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\item{\cventry{2025--2026}{Full-Stack Developer}{PH.Digital}{Tel Aviv, Israel}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item Designed and maintained end-to-end web applications with React (frontend) and Python/FastAPI (backend), owning the full stack from database schema to API layer
+    \item Built and maintained a production business platform with PostgreSQL: complex business logic, secure JWT authentication, and async background job scheduling
+    \item Integrated third-party REST APIs and external business systems; built automated workflows for document generation, client communication, and financial reporting
+    \item Delivered features consistently in Agile sprints; collaborated with frontend and product teams
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+\needspace{5\baselineskip}
+\item{\cventry{2019--2025}{Sales Team Leader}{Pcom Solutions}{Tel Aviv, Israel}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-\end{itemize}}}
-
-\vspace{3pt}
-
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
-\begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Led a team of 3--4 sales representatives; managed pipeline, KPIs, and enterprise client relationships
+    \item Grew team revenue 30\% year-over-year through structured pipeline management and coaching
 \end{itemize}}}
 
 \end{itemize}
@@ -114,14 +102,9 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
-
-\vspace{3pt}
-
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
+\needspace{5\baselineskip}
+\item{\cventry{2024--2025}{Full-Stack Development (990h)}{John Bryce}{Tel Aviv, Israel}{}{\vspace{1pt}
+Intensive program: Python (Django, FastAPI, Flask), React, Node.js, GenAI integrations (OpenAI API, LLM pipelines), Docker, AWS EC2, Clean Code, SOLID principles.
 }}
 
 \end{itemize}
@@ -133,27 +116,7 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
-\end{itemize}
-
-% ============================================================
-%     PUBLICATIONS (optional)
-% ============================================================
-
-\section{Publications}
-\vspace{1pt}
-\begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item Hebrew (native), English (fluent), Arabic (conversational), French (conversational).
 \end{itemize}
 
 % ============================================================

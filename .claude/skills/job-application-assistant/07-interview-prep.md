@@ -12,32 +12,37 @@ Structure answers as: **Situation** (context), **Task** (your responsibility), *
 
 Keep answers to 1-2 minutes. Be specific. End with what you learned or would do differently.
 
-## Ready-Made STAR Examples
+## STAR Candidates (Complete Manually)
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+*Situation and Task extracted from your CV. Fill in Action and Result with your specific details before using in interviews.*
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. Production Business Platform — PH.Digital (Backend ownership / end-to-end engineering)
+**S:** PH.Digital needed a production-grade internal business platform covering document generation, client communication, and financial reporting workflows.
+**T:** I owned the full backend end-to-end: database schema design, API layer, JWT authentication, and async background job scheduling.
+**A:** [Describe the specific design decisions, technical challenges, tools/patterns chosen and why]
+**R:** [What shipped? Business impact? Any performance metrics, uptime, or user feedback?]
+**Use for:** "Tell me about a complex technical problem you solved", "Describe a project you owned end-to-end", "Tell me about your backend architecture experience"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. Third-Party API Integration + Workflow Automation — PH.Digital (Integration / automation)
+**S:** Business processes at PH.Digital required reliable integration with external systems and automation of previously manual workflows.
+**T:** I designed and built integrations with third-party REST APIs and automated document generation, client communication, and reporting processes.
+**A:** [Which systems? How did you handle failures/retries/edge cases? What did the automation replace?]
+**R:** [What was automated? Time saved? Reduction in manual errors?]
+**Use for:** "Tell me about a time you improved a process", "Describe a system integration you built", "How have you used APIs in production?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. Agile Feature Delivery — PH.Digital (Collaboration / delivery)
+**S:** PH.Digital operated in Agile sprints with standups, sprint planning, and retrospectives. Features had to ship consistently across frontend and backend.
+**T:** I collaborated with frontend and product teams to deliver full-stack features on sprint schedule, owning both the API and the React integration.
+**A:** [Pick a specific sprint or feature. How did you scope it? Handle blockers? Communicate across teams?]
+**R:** [Did you consistently hit sprint goals? Any specific feature you're proud of shipping?]
+**Use for:** "Tell me about working in a cross-functional team", "How do you handle deadlines?", "Describe your Agile experience"
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Sales Team Revenue Growth — Pcom Solutions (Leadership / results delivery)
+**S:** As Sales Team Leader at Pcom Solutions, I managed a team of 3–4 representatives and was accountable for pipeline, KPIs, and enterprise client relationships.
+**T:** I needed to grow team revenue and develop team members while maintaining strong client relationships.
+**A:** [How did you structure the team? What did you change or improve? How did you coach team members?]
+**R:** Grew team revenue 30% year-over-year.
+**Use for:** "Tell me about a time you led a team", "Describe a result you're proud of", "How do you handle responsibility for others' performance?"
 
 ## Common Tough Questions
 

@@ -4,51 +4,56 @@ framework_version: 1.0.0
 
 # Behavioral Profile
 
-<!-- SETUP: This file is populated by running /setup -->
-<!-- You can use results from PI, DISC, Myers-Briggs, StrengthsFinder, or a self-assessment -->
-
 ## Overview
-[YOUR_NAME]'s behavioral assessment identifies them as a **[PROFILE_TYPE]** pattern. [1-2 SENTENCE_SUMMARY].
+Matan is an **ownership-driven builder** who takes end-to-end responsibility for engineering features from design through production. He combines high technical standards with a collaborative work style and a strong bias toward simplicity and maintainability over clever complexity.
 
 ## Core Behavioral Drives
 
 | Drive | Level | Meaning |
 |-------|-------|---------|
-| [DRIVE_1] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_2] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_3] | [LEVEL] | [DESCRIPTION] |
-| [DRIVE_4] | [LEVEL] | [DESCRIPTION] |
+| Ownership | High | Takes full responsibility for features end-to-end; dislikes ambiguous handoffs |
+| Quality | High | Prioritizes clean, scalable, maintainable code; low tolerance for poor engineering standards |
+| Learning | High | Needs regular exposure to new tools, architectural challenges, and technical problems |
+| Autonomy | High | Works best with clear ownership and minimal micromanagement |
 
 ## Strongest Behaviors
-- **[BEHAVIOR_1]:** [DESCRIPTION]
-- **[BEHAVIOR_2]:** [DESCRIPTION]
-- **[BEHAVIOR_3]:** [DESCRIPTION]
+- **Builder mindset:** Energized by creating products people actually use, not by maintaining existing systems
+- **System thinker:** Enjoys designing backend architectures, API contracts, and database schemas from the ground up
+- **AI-augmented developer:** Actively uses AI tools (Claude Code, OpenAI API, Anthropic API) to increase development velocity and code quality
+- **Cross-functional collaborator:** Comfortable working with product, frontend, and business stakeholders
 
 ## How You Work Best
-- [ENVIRONMENT_PREFERENCE_1]
-- [ENVIRONMENT_PREFERENCE_2]
-- [ENVIRONMENT_PREFERENCE_3]
+- In collaborative teams with high engineering standards and clear ownership
+- When given end-to-end feature ownership from design through production
+- In environments that value simplicity, maintainability, and developer experience
+- With a relatively flat engineering structure and technical managers who engage with code
 
 ## Growth Areas (frame positively in applications)
-- **[AREA_1]:** [HOW_TO_FRAME_IT_POSITIVELY]
-- **[AREA_2]:** [HOW_TO_FRAME_IT_POSITIVELY]
+- **Technical leadership:** Moving toward tech lead and system architect responsibilities; currently growing through full-stack feature ownership
+- **Large-scale distributed systems:** Production experience is at startup/scale-up level; actively building toward larger system design
 
 ## Mapping to Job Posting Language
 
 When a job posting mentions these keywords, it's a **strong behavioral fit**:
-- [KEYWORD_OR_PHRASE_THAT_MATCHES_YOUR_STYLE]
-- [ANOTHER_KEYWORD]
+- "End-to-end ownership", "full ownership of features", "take it from idea to production"
+- "High engineering standards", "clean code", "code quality", "maintainability"
+- "Autonomous", "self-directed", "high ownership culture"
+- "Startup culture", "build from scratch", "greenfield"
+- "AI/LLM integration", "developer tools", "automation", "productivity"
 
-When a job posting mentions these, flag as **potential friction** (not deal-breaker):
-- [KEYWORD_OR_PHRASE_THAT_MIGHT_CLASH]
-- [ANOTHER_KEYWORD]
+When a job posting mentions these, flag as **potential friction** (not a deal-breaker, worth discussing):
+- "Heavy legacy codebase, mostly maintenance" — likely draining long-term
+- "Strict approval chains and process overhead" — bureaucracy is a stated energy drain
+- "Narrow, well-defined scope in a large team" — prefers broader ownership
 
 ## Management Style Preferences
-- [WHAT_MANAGEMENT_STYLE_WORKS_FOR_YOU]
-- [WHAT_DOESN'T_WORK]
+- Direct, technically engaged managers who give feedback on architecture and code
+- Code review culture: constructive, educational, not gatekeeping
+- Retrospectives and sprint discipline (Agile background)
+- Minimal hierarchy, flat engineering team preferred
 
 ## Using This in Applications
-- **Cover letters:** [HOW_TO_WEAVE_IN_BEHAVIORAL_STRENGTHS]
-- **CV:** [WHAT_TO_EMPHASIZE]
-- **Interviews:** [WHAT_STAR_EXAMPLES_TO_USE]
-- **Don't overstate:** [WHAT_NOT_TO_CLAIM]
+- **Cover letters:** Lead with ownership mindset and the desire to build products that matter. Mention AI/automation tooling as a productivity multiplier.
+- **CV:** Use "designed and built" over "contributed to". Emphasize ownership, not just participation.
+- **Interviews:** Use STAR examples that show initiative — not just completing assigned tasks but identifying problems and solving them proactively.
+- **Don't overstate:** Do not claim distributed systems expertise at scale, DevOps ownership, or team leadership beyond the Pcom sales team.

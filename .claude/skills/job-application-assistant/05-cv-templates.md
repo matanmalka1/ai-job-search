@@ -110,11 +110,14 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 **Create 2-3 profile statement templates for your main role types:**
 
 <!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Full-Stack / Backend Developer roles:**
+> Full-Stack Developer with production experience building Python/FastAPI backends, React frontends, and PostgreSQL data layers. Designed and owned end-to-end features on a live business platform: API architecture, JWT authentication, async job scheduling, and third-party integrations. Background in client-facing leadership adds business context and product sense. Fluent in Hebrew and English; experienced with AI tooling (Claude Code, OpenAI/Anthropic API) to accelerate development velocity and code quality.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Backend-Focused / Python Developer roles:**
+> Backend Developer specializing in Python (FastAPI, Flask) and PostgreSQL, with production experience designing REST APIs, authentication flows, and async background job systems. Built and maintained a real-world business platform end-to-end, from database schema to business logic. Comfortable with Node.js/Express, Docker, and AWS EC2. Actively integrates AI/LLM tooling into development workflows via Claude Code and the OpenAI and Anthropic APIs. Strong engineering standards with a focus on clean, maintainable code.
+
+**For AI-Augmented / Full-Stack + AI roles:**
+> Full-Stack Developer with production experience in Python/FastAPI, React, and PostgreSQL, focused on integrating AI and automation into product development. Built automated business workflows and LLM pipeline integrations using OpenAI and Anthropic APIs. Uses Claude Code as an AI engineering assistant to increase development velocity and code quality. Combines backend architecture skills with prompt engineering and LLM integration experience — well suited for teams building AI-powered features or developer productivity tools.
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.
